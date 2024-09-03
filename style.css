@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #46e334;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #4CAF50;
+    color: #f9f9f9;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+
+main {
+    padding: 1em;
+}
+
+.tanaman {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background: #1dcd31;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gambar-tanaman {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.deskripsi-tanaman {
+    max-width: 600px;
+}
+
+
